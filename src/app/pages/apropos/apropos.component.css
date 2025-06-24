@@ -1,0 +1,76 @@
+.apropos-container {
+  max-width: 1300px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 2.5rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.apropos-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #efefefc5;
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  position: relative;
+  height: 250px
+}
+
+.apropos-title {
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #000000;
+  text-shadow: 0 2px 8px rgba(179, 198, 230, 0.2);
+}
+
+.apropos-home-btn {
+  display: block;
+  margin: 0 auto 2rem auto;
+  background: #5b7f95;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.apropos-home-btn:hover {
+  background: #383838;
+}
+
+.apropos-section {
+  margin-bottom: 4rem;
+}
+
+.apropos-section h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.apropos-section p, .apropos-section ul {
+  font-size: 1rem;
+  color: #222;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.7px
+}
+
+.apropos-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.apropos-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+} 

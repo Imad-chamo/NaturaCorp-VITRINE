@@ -1,0 +1,21 @@
+<header class="navbar">
+  <div class="logo" routerLink="/">NaturaCorp</div>
+
+  <div class="nav-right">
+    <nav class="nav-links" [class.open]="menuOpen">
+      <a routerLink="/">Accueil</a>
+      <a routerLink="/products">Produit</a>
+      <a routerLink="/apropos">À propos</a>
+      <a href="#">Blog</a>
+      <a routerLink="/faq">FAQ</a>
+      <a routerLink="/contact">Contact</a>
+    </nav>
+
+    <button class="login-btn" routerLink="/connexion">Connexion</button>
+    <div class="burger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
