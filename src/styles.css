@@ -1,1 +1,418 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Optimisations de performance CSS */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* Optimisations pour les images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Optimisations pour les liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Optimisations pour les boutons */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Optimisations pour les listes */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Optimisations pour les formulaires */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Optimisations pour le focus */
+*:focus {
+  color: #5b7f95;
+}
+
+/* Optimisations pour les animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Optimisations pour le contenu */
+.content {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les conteneurs */
+.container {
+  contain: layout style;
+}
+
+/* Optimisations pour les grilles */
+.grid {
+  contain: layout style;
+}
+
+/* Optimisations pour les cartes */
+.card {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les modales */
+.modal {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les tooltips */
+.tooltip {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les dropdowns */
+.dropdown {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les carousels */
+.carousel {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les tableaux */
+table {
+  contain: layout style;
+}
+
+/* Optimisations pour les vidéos */
+video {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les iframes */
+iframe {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les canvas */
+canvas {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les SVG */
+svg {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les polices */
+
+
+/* Optimisations pour les icônes */
+.icon {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les badges */
+.badge {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les avatars */
+.avatar {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les boutons */
+.btn {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les inputs */
+.input {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les labels */
+.label {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les checkboxes */
+.checkbox {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les radios */
+.radio {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les selects */
+.select {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les textareas */
+.textarea {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les progress bars */
+.progress {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les sliders */
+.slider {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les tabs */
+.tabs {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les accordions */
+.accordion {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les breadcrumbs */
+.breadcrumbs {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les pagination */
+.pagination {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les notifications */
+.notification {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les alerts */
+.alert {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les spinners */
+.spinner {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les skeletons */
+.skeleton {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les placeholders */
+.placeholder {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les overlays */
+.overlay {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les backdrops */
+.backdrop {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les masks */
+.mask {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les gradients */
+.gradient {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les shadows */
+.shadow {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les borders */
+.border {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les backgrounds */
+.background {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les textes */
+.text {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les titres */
+.title {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les paragraphes */
+.paragraph {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les listes */
+.list {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les items */
+.item {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les sections */
+.section {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les articles */
+.article {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les headers */
+.header {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les footers */
+.footer {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les sidebars */
+.sidebar {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les navbars */
+.navbar {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les menus */
+.menu {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les sous-menus */
+.submenu {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les items de menu */
+.menu-item {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les liens de menu */
+.menu-link {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les boutons de menu */
+.menu-button {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les icônes de menu */
+.menu-icon {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les labels de menu */
+.menu-label {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les badges de menu */
+.menu-badge {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les tooltips de menu */
+.menu-tooltip {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les sous-menus */
+.submenu {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les items de sous-menu */
+.submenu-item {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les liens de sous-menu */
+.submenu-link {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les boutons de sous-menu */
+.submenu-button {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les icônes de sous-menu */
+.submenu-icon {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les labels de sous-menu */
+.submenu-label {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les badges de sous-menu */
+.submenu-badge {
+  contain: layout style paint;
+}
+
+/* Optimisations pour les tooltips de sous-menu */
+.submenu-tooltip {
+  contain: layout style paint;
+}
